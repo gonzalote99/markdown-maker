@@ -1,0 +1,44 @@
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background: #f6f6f6;
+}
+
+body .container header h1 {
+  color: #212529;
+} 
+
+.container {
+  width: 90%;
+  max-width: 600px;
+}
+
+.container .form {
+  background-color: #e9ecef;
+  opacity: 1;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+
+}
+
+.container .form label {
+  height: 100%;
+  padding: 2rem 2rem;
+  position: absolute;
+}
+
+img {
+  width: 190%;
+}
+
+
+.editWrapper {
+  width: 32px;
+}
